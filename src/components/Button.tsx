@@ -37,7 +37,7 @@ export function Button({
       <ButtonInner arrow={arrow}>{children}</ButtonInner>
     </button>
   ) : (
-    <Link className={className} {...props}>
+    <Link className={className} {...props} target='_blank'>
       <ButtonInner arrow={arrow}>{children}</ButtonInner>
     </Link>
   )

@@ -190,7 +190,7 @@ function Constellation({
 
 export function StarField({ className }: { className?: string }) {
   let blurId = useId()
-
+  
   return (
     <svg
       viewBox="0 0 881 211"
